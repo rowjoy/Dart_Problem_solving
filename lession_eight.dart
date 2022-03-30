@@ -15,7 +15,7 @@ void main() {
 
   while (true) {
     String Computerchoice = selected[remdom.nextInt(selected.length)];
-    stdout.write("\nPlease select Rock , Paper , Scissor : ");
+    stdout.write("\nPlease select Rock , Paper , Scissors : ");
     String Userchoic = stdin.readLineSync()!.toLowerCase();
 
     if (Userchoic == "exit") {
