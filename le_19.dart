@@ -4,10 +4,10 @@ void main() {
   // Empty board
   List<List<String>> initialBoard =
       List.generate(3, (_) => List.generate(3, (_) => ' '));
-  drawBoard(initialBoard, 2);
+  drawBoard(initialBoard,2);
 }
 //List<List<String>> board, int currentUser
-void drawBoard(List<List<String>> board ,currentUser) {
+void drawBoard(List<List<String>> board , int currentUser) {
   /*
   Takes an initial board and populates it 
   either with X or with O depending on
@@ -18,7 +18,7 @@ void drawBoard(List<List<String>> board ,currentUser) {
 
   stdout.write("Please choose a coordinate: ");
   var choice = stdin.readLineSync()!.split("");
-  print(choice);
+  print(choice[1]);
   board[int.parse(choice[0])][int.parse(choice[1])] = move;
   print(board);
 }
