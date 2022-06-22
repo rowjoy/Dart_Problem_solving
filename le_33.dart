@@ -4,6 +4,7 @@ void main(){
   DataSortList();
   DataSortListTwo();
   SortLIst();
+  teskList();
 
 }
 
@@ -68,5 +69,30 @@ void SortLIst (){
 
   }
 
+  print(list);
+}
+
+
+
+
+void teskList (){
+  List list = [10,9,8,7];
+  int i , j, minIndex, temp;
+  for(i = 0; i< list.length -1; i++){
+    minIndex = i;
+    for( j = i + 1 ; j < list.length ; j++){
+      if(list[j] < list[minIndex]){
+        minIndex = j ;
+      }
+      
+    }
+    if(minIndex != i){
+      temp = list[i];
+      list[i]= list[minIndex];
+      list[minIndex]= temp;
+
+    }
+
+  }
   print(list);
 }
