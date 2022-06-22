@@ -98,9 +98,9 @@ void randomaseUnSortList (){
   Random _random = Random();
   List<int> list = List.generate(1000, (_) => _random.nextInt(1000)).toSet().toList();
   int i , j, temp, min_index ;
-  for(i = 0; i<list.length -1 ; i++){
+  for(i = 0; i<list.length - 1 ; i++){
     min_index = i;
-    for(j = i +1; j< list.length ; j++){
+    for(j = i + 1; j< list.length ; j++){
       if(list[j] < list[min_index]){
         min_index = j;
       }
