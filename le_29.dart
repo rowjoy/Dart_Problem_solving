@@ -1,6 +1,6 @@
 /*
 Hello !! I Love Dart Programming Language
-Author:Mehedi Hasan
+Author: rowjoy 
 Topics: Problem Solving ||Algorithm & Data Structure 
 Problem Name: Linear Search 
 */

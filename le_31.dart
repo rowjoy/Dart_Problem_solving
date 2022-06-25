@@ -8,7 +8,7 @@ void main() {
 void searchItemOne(){
    /*
 Hello !! I Love Dart Programming Language
-Author:Mehedi Hasan
+Author: rowjoy
 Topics: Problem Solving ||Algorithm & Data Structure 
 Problem Name: Bineary Search with all possibale case
 */
@@ -40,7 +40,7 @@ Problem Name: Bineary Search with all possibale case
 void searchItemTwo(){
   /*
 Hello !! I Love Dart Programming Language
-Author:Mehedi Hasan
+Author: rowjoy
 Topics: Problem Solving ||Algorithm & Data Structure 
 Problem Name: Bineary Search with all possibale case
 */
