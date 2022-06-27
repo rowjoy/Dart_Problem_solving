@@ -1,6 +1,10 @@
+import 'dart:math';
+
 void main(){
-  simpleLogic();
-  listBigNumber();
+  // simpleLogic();
+  // listBigNumber();
+
+  listbigNumberloop();
   
 }
 
@@ -23,6 +27,23 @@ void simpleLogic (){
  listBigNumber(){
   List list = [10,25,87, 50];
   print(list.reduce((value, element) => value > element ? value : element));
- 
+
+}
+
+void listbigNumberloop(){
+  Random _random = Random();
+
+  List list = List.generate(100, (index) => _random.nextInt(100));
+  print("List$list");
+  var number = list.reduce((value, element) => value > element ? value : element);
+  print("NUmber$number");
+  int i, temp ;
+  for(i = 1; i< list.length; i++){
+    temp = list[i];
+    if(temp == number){
+      print("Number index$i");
+      
+    }
+  }
 
 }
